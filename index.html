@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>All Men</title>
+  <link href="./assets/css/style.css" rel="stylesheet" />
+  <link href="./assets/css/animation.css" rel="stylesheet" />
+  <link href="./assets/css/mediaQuery.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="tittle">
+      <h1>All inclusive</h1>
+    </div>
+  </header>
+  <div class="navbar-container">
+    <nav class="navbar open-menu" id="nav">
+      <button id="menu-toggle-two">
+        <img src="./assets/img/menu.svg" alt="menu icon" class="btn-toggle" />
+      </button>
+      <ul class="navbar-list">
+        <li>
+          <a href="#about-us">Sobre nosotros</a>
+
+        </li>
+        <li>
+          <a href="#product-container">Productos</a>
+        </li>
+        <li>
+          <a href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="user-and-car">
+      <div class="user" id="check-sesion">
+      </div>
+      <img src="./assets/img/shopping-cart.svg" alt="car-icon" id="car" />
+      <button id="menu-toggle"  class="btn-toggle">
+        <img src="./assets/img/menu.svg" alt="menu icon" />
+      </button>
+      <div class="menu-car open-car" id="carrito">
+        <button id="btn-car-toggle" class="btn-car-close">
+          <img src="./assets/img/corner-up-left.svg" alt="icon arrow" />
+        </button>
+        <div class="container-carr">
+          <div class="product-in-car" id="container-product-in-car">
+          </div>
+          <div class="buy">
+            <p>Total:</p>
+            <p id="total"></p>
+          </div>
+          <button class="cta" id="buy-finish">
+            <span class="hover-underline-animation"> Comprar </span>
+          </button>
+          <button class="cta" id="cancel-buy">
+            <span class="hover-underline-animation"> Vaciar</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="hero-container">
+      <div class="hero-image"></div>
+    </div>
+    <section class="about-us" id="about-us">
+      <div class="about-us-card">
+        <img src="./assets/img/ecommerce-website.png" alt="search icon" />
+        <div>
+          <h3>ECONTRAR TALLES</h3>
+          <p>
+            Suscipit aliquid provident quod numquam eveniet corporis iure,
+            tenetur beatae, possimus delectus amet voluptates modi ad
+            assumenda qui, dolor pariatur quis accusantium?
+          </p>
+        </div>
+      </div>
+      <div class="about-us-card">
+        <img src="./assets/img/cash-on-delivery.png" alt="return money icon" />
+        <div>
+          <h3>DEVOLUCIONES</h3>
+          <p>
+            Cupiditate ratione quasi quaerat, harum dolorem pariatur corporis
+            error veritatis eum mollitia animi dicta cumque, minima obcaecati
+            fuga ipsa aut non reiciendis.
+          </p>
+        </div>
+      </div>
+      <div class="about-us-card">
+        <img src="./assets/img/payment-successful.png" alt="security payment icon" />
+        <div>
+          <h3>SEGURIDAD AL PAGAR</h3>
+          <p>
+            Illo autem quos exercitationem pariatur dicta nostrum, dolores
+            natus nam, officia unde quidem vitae rem qui fuga accusantium.
+            Vero tenetur reprehenderit et?
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="products-container" id="product-container"></div>
+    <div class="container-btn">
+      <button class="btn-page" id="prev-btn"">
+          <span>Anterior</span>
+        </button>
+        <p id="page-number"></p>
+        <button id="next-btn" class="btn-page">
+          <span>Siguiente</span>
+        </button>
+    </div>
+
+    <section class="contact" id="contact">
+      <h3>Contactanos!</h3>
+      <div class="container-info">
+        <div class="info-contact">
+          <img src="./assets/img/location.svg" alt="location icon" />
+          <span>Localización</span>
+          <p>Fray mamerto Esquiu 100 - Salta - Argentina</p>
+        </div>
+        <div class="info-contact">
+          <img src="./assets/img/smartphone.svg" alt="phone icon" />
+          <span>Celular</span>
+          <p>+54 38671829</p>
+        </div>
+        <div class="info-contact">
+          <img src="./assets/img/email.svg" alt="email icon" />
+          <span>Correo</span>
+          <p>myContact@gmail.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <p>Copyrigth 2023 All inclusive All Rights Reserved.</p>
+    </div>
+    <div class="payment">
+      <p>Aceptamos:</p>
+      <div class="icon-payment">
+        <img src="./assets/img/payment-mastercard.png" alt=" mastercard icon" />
+        <img src="assets/img/payment-paypal.png" alt="paypal icon" />
+        <img src="./assets/img/paymet-visa.png" alt="visa icon" />
+        <img src="./assets/img/payment-mercadoPago.webp" alt="mercado pago icon" />
+      </div>
+    </div>
+  </footer>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="./app/index.js"></script>
+  <script src="./assets/fetching.js"></script>
+  <script src="./assets/main.js"></script>
+</body>
+
+</html>

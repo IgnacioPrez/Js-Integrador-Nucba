@@ -1,0 +1,424 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .navbar-container {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+    padding: 1.4em;
+    align-items: center;
+    position: relative;
+  }
+  .navbar{
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+    height: 105vh;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    transition: all .5s ease;
+    overflow-y:hidden;
+  }
+  #menu-toggle-two{
+    display: block;
+    position: absolute;
+    left:75%;
+    padding: .3em;
+  }
+  .btn-toggle {
+    width: 2.5em;
+  }
+
+  .navbar-list {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: medium;
+    flex-direction: column;
+    gap: 80px;
+    width: 60vw;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+
+  }
+  .open-menu{
+    transform: translateX(600px);
+    
+  }
+  .open-car {
+    transform: translateX(600px);
+  }
+  .opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .5s ease;
+  }
+
+  .user-and-car {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+    align-items: center;
+  }
+  
+  .user {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  #menu-toggle{
+    display: block;
+  }
+  /* Hero */
+  .hero-container {
+    display: none;
+  }
+  /* about  us*/
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    justify-content: center;
+    margin-top: 15em;
+    align-items: center;
+    gap: 15px;
+  }
+  .about-us-card {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2em;
+    font-size: small;
+  }
+  .about-us-card h3 {
+    font-weight: bolder;
+  }
+  .about-us-card p {
+    color: rgb(18, 17, 17);
+  }
+  .about-us-card img {
+    height: 60%;
+  }
+
+  /* Products */
+  .products-container {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15em ;
+    gap: 120px;
+    position: relative;
+  }
+  
+  .card {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    position: relative;
+  }
+
+  .menu-car {
+    width: 60vw;
+  }
+
+  .car-list {
+    display: flex;
+    gap: 20px;
+    font-weight: bold;
+    font-size: medium;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+    height: 90%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+  }
+  /* contact us */
+
+  .contact {
+    height: auto;
+    display: flex;
+    margin: 7em 0;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+  .contact h3 {
+    font-size: x-large;
+  }
+  .container-info {
+    display: flex;
+    gap: 50px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-contact img {
+    height: 50px;
+  }
+  /* Footer */
+
+  footer {
+    display: flex;
+    height: 10em;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .payment{
+    gap: 0px;
+    padding-right: 20px;
+  }
+  .payment img {
+    width: 50px;
+  }
+  .icon-payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+  .navbar{
+    position: fixed;
+    height: 100vh;
+    width: 30vw;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgb(42,42,42);
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+    background-color: #fff;
+  
+  }
+
+  #menu-toggle-two{
+    display: block;
+    position: absolute;
+    left:75%;
+    right: 0;
+    padding: .3em;
+  }
+  #menu-toggle{
+    display: block;
+  }
+  .open-menu{
+    transform: translateX(600px);
+  }
+  .opacity{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all .5s ease;
+  }
+  .navbar-list {
+    flex-direction: column;
+    gap: 80px;
+    height: 70%;
+    align-items: center;
+    padding: .5em;
+    justify-content: center;
+    margin-top: 2rem;
+    color: #fff;
+  }
+
+  .btn-toggle {
+    width: 2.5em;
+  }
+
+  /* Hero */
+  .hero-container {
+    display: none;
+  }
+  /* about  us*/
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    justify-content: center;
+    margin-top: 15em;
+    align-items: center;
+    gap: 15px;
+  }
+  .about-us-card {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2em;
+    font-size: small;
+  }
+  .about-us-card h3 {
+    font-weight: bolder;
+  }
+  .about-us-card p {
+    color: rgb(18, 17, 17);
+  }
+  .about-us-card img {
+    height: 90%;
+  }
+
+  /* Products */
+  .products-container {
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15em ;
+    gap: 120px;
+    position: relative;
+  }
+  
+  .card {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    position: relative;
+  }
+
+  /* contact us */
+
+  .contact {
+    height: auto;
+    display: flex;
+    margin: 7em 0;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+      rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  }
+  .contact h3 {
+    font-size: x-large;
+  }
+  .container-info {
+    display: flex;
+    gap: 50px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-contact img {
+    height: 50px;
+  }
+  /* Footer */
+
+  footer {
+    display: flex;
+    height: 10em;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .payment{
+    gap: 0px;
+    padding-right: 20px;
+  }
+  .payment img {
+    width: 50px;
+  }
+  .icon-payment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+}
+
+@media (max-width:968px) {
+  .products-container {
+    display: flex;
+    width:100%;
+
+    margin-top: 25em ;
+    gap: 120px;
+    flex-direction: column;
+  }
+  
+  .card {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    position: relative;
+  }
+
+
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    justify-content: center;
+    margin-top: 25em;
+    align-items: center;
+    gap: 55px;
+  }
+  .about-us-card {
+    display: flex;
+    width: 70%;
+    font-size: medium;
+  }
+  .contact {
+    margin: 15em 0;
+    flex-direction: column;
+    gap: 50px;
+
+  }
+
+  .container-info {
+    display: flex;
+    gap: 50px;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-contact img {
+    height: 50px;
+  }
+  
+}
