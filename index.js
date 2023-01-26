@@ -156,7 +156,6 @@ const getShirts = async () => {
   renderPhotos(shirts.results);
 };
 
-/* Menu hamburguesa */
 
 const toggleMenuOpen = () => {
   navbar.classList.toggle("open-menu");
@@ -301,6 +300,7 @@ function init() {
   productContainer.addEventListener("click", addTocar);
   buyFinish.addEventListener("click", buyComplete);
   btnCancelBuy.addEventListener("click", cancelBuy);
+
 }
 
 init();
